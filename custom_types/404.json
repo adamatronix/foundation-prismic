@@ -1,0 +1,24 @@
+{
+  "Main": {
+    "line_1": {
+      "type": "Text",
+      "config": {
+        "label": "Line 1"
+      }
+    },
+    "line_2": {
+      "type": "Text",
+      "config": {
+        "label": "Line 2"
+      }
+    },
+    "background_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Background Image"
+      }
+    }
+  }
+}

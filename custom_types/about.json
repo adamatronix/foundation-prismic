@@ -1,0 +1,35 @@
+{
+  "Main" : {
+    "theme" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "light", "dark" ],
+        "label" : "theme"
+      }
+    },
+    "info" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Info"
+      }
+    },
+    "email_label" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Email Label"
+      }
+    },
+    "email" : {
+      "type" : "Link",
+      "config" : {
+        "label" : "Email"
+      }
+    },
+    "linkedin" : {
+      "type" : "Link",
+      "config" : {
+        "label" : "LinkedIn"
+      }
+    }
+  }
+}

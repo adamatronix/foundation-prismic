@@ -1,0 +1,38 @@
+{
+  "Main": {
+    "theme": {
+      "type": "Select",
+      "config": {
+        "options": [
+          "light",
+          "dark"
+        ],
+        "label": "theme"
+      }
+    },
+    "background": {
+      "type": "Color",
+      "config": {
+        "label": "background"
+      }
+    },
+    "projects": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "project": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": [
+                "article"
+              ],
+              "label": "Project"
+            }
+          }
+        },
+        "label": "Projects"
+      }
+    }
+  }
+}
